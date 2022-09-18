@@ -1,0 +1,279 @@
+.Header{
+  display:flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding-top: 10px;
+  position: sticky;
+  /* margin: 20px; */
+  background-color: lightgrey;
+  height: 60px;
+}
+.Icon{
+  display: inline;
+  padding: 10px;
+  margin: 20px;
+}
+input{
+  /* display: inline; */
+  transform: translateX(400px) translateY(-24px);
+  height: 30px;
+  width: 500px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: blanchedalmond;
+  padding-top: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: lightgray;
+
+
+}
+.Btn{
+  transform: translateX(1400px) translateY(-70px);
+  padding-top: 2px;
+}
+
+.Btn button{
+  cursor: pointer;
+  height: 48px;
+  width: 100px;
+  color: rgb(255, 253, 255);
+  background-color: darkmagenta;
+  border-radius: 5px;
+  font-style: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* padding-top: 20px; */
+}
+img{
+  height: 40px;
+  width: 40px;
+}
+.Sidebaropt{
+  /* display: inline; */
+  flex-direction: column;
+  /* background-color: lightgrey; */
+  border: gray 1px solid;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: black;
+}
+.side{
+  display: flex;
+  align-items: center;
+  padding: 23px;
+  text-decoration: none;
+  color: darkgrey;
+  /* background-color: lightgray; */
+  /* cursor: pointer; */
+}
+.side a{
+  display: flex;
+  align-items: center;
+  padding: 23px;
+  text-decoration: none;
+  color: darkgrey;
+}
+.side p{
+  display: inline;
+  margin: 10px;
+  /* transform: translateY(-100px); */
+cursor: pointer;
+}
+.side::hover{
+  background-color: rgb(245, 170, 170);
+  border-radius: 5px;
+
+}
+.Add{
+  display: flex;
+  margin: 20px;
+}
+.Add p{
+  transform: translateY(-18px);
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+.Feed{
+  flex: 0.6;
+}
+.Info{
+  transform: translateX(550px) translateY(-610px);
+  align-items: center;
+  display: flex;
+}
+.Infof{
+  transform: translateX(700px) translateY(-700px);
+  font-size: 22px;
+  flex-direction: column;
+  color: lightgray;
+
+
+
+}
+.Infof input{
+  border: lightslategrey solid 2px;
+  margin-right: 40px 40px 40px 40px ;
+  padding: 7px;
+  border-radius:  10px ;
+  transform: translateX(-100px) translateY(20px);
+  width: 450px;
+  align-items: center;
+
+}
+.Follow{
+  margin:20px;
+  color: slategray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Postinfo{
+  transform: translateX(600px) translateY(-600px);
+  display: flex;
+}
+
+.Postinfo h3{
+  transform: translateY(-19px);
+}
+.Postinfo small{
+  transform: translateX(20px); 
+}
+.Question p{
+  transform: translateX(610px) translateY(-720px);
+}
+/* .Question p{
+  transform: translateX(900px) translateY(-500px);
+} */
+.Mern img{
+  height:300px;
+  width: 300px;
+  transform: translateX(600px) translateY(-670px);
+}
+.Question button{
+  transform: translateX(900px) translateY(-715px);
+  width: 90px;
+  height: 30px;
+  color: white;
+  background-color: darkmagenta;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.Footer{
+  transform: translateX(650px) translateY(-650px);
+  /* display: flex; */
+  /* padding: 10px 10px 10px 10px; */
+  /* border: solid lightgray; */
+  /* padding:20px ; */
+  height: 30px;
+  width: 300px;
+  /* padding: 20px 20px 20px 20px ; */
+  /* align-items: center; */
+  border-radius: 10px;
+  justify-content: center;
+  padding-left: 10px;
+}
+.Footer-left{
+  transform: translateX(170px) translateY(-30px);
+  margin-right: 30px;
+
+  
+}
+.Only{
+  transform: translateX(80px) translateY(-63px);
+  /* display: flex; */
+}
+/* .Post{
+  border: solid gray;
+  width: 300px;
+} */
+
+/* .modalBg{ 
+  transform: translateX(-500px);
+  flex-direction: column;
+  padding: 25px;
+  position: relative;
+
+background-color: gray; 
+
+
+}  
+
+  }  
+/* .overlay{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  
+} */
+
+.mBody input{
+  transform: translateX(30px);
+  border: darkorchid 1px solid;
+  color: black;}
+
+  .Modal2 input{
+  transform: translateX(30px);
+  border: darkorchid 1px solid;
+  color: black;
+
+}
+.mBtn{
+  height: 40px;
+  width: 400px;
+  box-shadow: black 10px;
+  transform: translateX(100px) translateY(100px);
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius: 20px;
+cursor: pointer;}
+  
+.BtnM2{
+  height: 40px;
+  width: 400px;
+  box-shadow: black 10px;
+  transform: translateX(100px) translateY(100px);
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius: 20px;
+
+
+  cursor: pointer;
+}
+.btn2{
+  background-color: red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-weight: 100;
+  cursor: pointer;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+.Xbtn{
+  background-color: red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-weight: 100;
+  cursor: pointer;
+  border-radius: 15px;}
+.h11{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: darkmagenta;
+  font-style: bold;
+  transform: translateX(130px);
+  font-size: 35px;
+}
+.Small1 small{
+  transform: translateY(300px) translateX(100px);
+  color: darkslategray;
+
+}
+.Modal-header h1{
+  transform: translateX(80px);
+  color: indigo;
+
+}
